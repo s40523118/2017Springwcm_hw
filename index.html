@@ -44,7 +44,7 @@
 ### 虎科大機械設計工程系
 
 <small>
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [林兆戎](http://chiamingyen.github.io/kmolab/blog/)
 </small>
 
 [網際內容管理課程網誌](blog/index.html)
@@ -57,15 +57,11 @@ Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+# 網路線
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
+順序為
+白橙   橙   白綠   藍   白藍   綠   白棕   棕
+線材的兩邊順序要相同
     </script>
 </section>
 
@@ -75,12 +71,26 @@ Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+虛擬主機
+Oracle 公司:資料庫
+設定值:單一
+檔案喜好 設定:系統
+網路NAT(服務系統)
+1.NAT網路(虛擬主機可透NAT來連線)
+僅限主機網路
+設定值
+橋接介面卡(找NAT)(與外接IP一樣)
+DNS連接到mdecourse.github.io
+CNAM:代表別名
+https://[2001:288:6004:17::7}
+學校   2001"288"6004"17::7
+           2001:booo:168::1
+proxy[2001:288:6004:17::17]
+雲端特性:彈性(工具)
+Mbr(Master Boot Record)
+SSD 固態硬碟(不旋轉)
+SCSI：小型電腦介面
+RAID：容錯式磁碟陣列（RAID，獨立磁盤冗餘陣列）
     </script>
 </section>
 
@@ -90,47 +100,30 @@ $$I = \int \rho R^{2} dV$$
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+<section data-markdown>
+    <script type="text/template">
+ipconfig/all
+ping 自己IP
+ping Gateway IP
+ping 外部 Gateway
+ping 外部 IP
+tracert 區域主要網站
+tracert 廣域網路主要網站
+fossil clone uri fossil-file
+fossil open
+fossil add
     </script>
 </section>
-
 
 
 						
-<section data-markdown>
-    <script type="text/template">
-## 使用 iframe 導入影片
+# 安裝使用Ubuntu
 
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/214970970" width="640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214970970">2017-04-27_13-36-36</a> from <a href="https://vimeo.com/user65942712">林兆戎</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
     </script>
 </section>
+
 
 
 						
