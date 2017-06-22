@@ -33,14 +33,23 @@
 <v t="yen.20170108171733.11" a="E"><vh>body</vh>
 <v t="yen.20170108171733.12" a="E"><vh>reveal div</vh>
 <v t="yen.20170108171733.13" a="E"><vh>slides div</vh>
-<v t="yen.20170108171733.14"><vh>封面投影片</vh>
+<v t="yen.20170108171733.14" a="E"><vh>封面投影片</vh>
 <v t="yen.20170108171733.15"><vh>封面投影片內容</vh></v>
 </v>
-<v t="yen.20170108171733.16" a="E"><vh>快捷鍵</vh>
+<v t="yen.20170108171733.16"><vh>快捷鍵</vh>
 <v t="yen.20170108171733.17"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20170623003805.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20170623003805.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="yen.20170108171733.64" a="E"><vh>各式內容引用範例</vh>
-<v t="yen.20170108171733.65"><vh>導入數學符號與方程式</vh>
+<v t="leo.20170623003503.1" a="E"><vh>newHeadline</vh>
+<v t="leo.20170623003503.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20170623002815.1" a="E"><vh>newHeadline</vh>
+<v t="leo.20170623002815.2"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="yen.20170108171733.65" a="E"><vh>導入數學符號與方程式</vh>
 <v t="yen.20170108171733.66"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20170622234143.1" a="E"><vh>newHeadline</vh>
@@ -101,6 +110,58 @@ RAID：容錯式磁碟陣列（RAID，獨立磁盤冗餘陣列）
 <t tx="leo.20170622234235.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
+<t tx="leo.20170623002815.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170623002815.2">DNS連接到mdecourse.github.io
+CNAM:代表別名
+https://[2001:288:6004:17::7}
+學校   2001"288"6004"17::7
+           2001:booo:168::1
+proxy[2001:288:6004:17::17]
+雲端特性:彈性(工具)
+Mbr(Master Boot Record)
+SSD 固態硬碟(不旋轉)
+SCSI：小型電腦介面
+RAID：容錯式磁碟陣列（RAID，獨立磁盤冗餘陣列）
+</t>
+<t tx="leo.20170623003503.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170623003503.2">機械設計:設計士一種表達，寫在{設}說清楚意別人做甚麼
+表達方式:口語.文字.2D.實際.量化
+機:很多零件組合可精巧運作的器物
+械:在一定範圍內
+設:表達清楚
+計:經考量討論
+硬體.流體.軟體:最佳化</t>
+<t tx="leo.20170623003805.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170623003805.2">網路線
+RJ 45
+白橙:傳送資料正極TH+
+橙:傳送資料負極TH-
+白:接收資料正極RX+
+藍:X
+白藍:X
+綠:接收資料負極RX-
+白棕:X
+棕:X</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
