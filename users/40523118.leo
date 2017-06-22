@@ -33,22 +33,28 @@
 <v t="yen.20170108171733.11" a="E"><vh>body</vh>
 <v t="yen.20170108171733.12" a="E"><vh>reveal div</vh>
 <v t="yen.20170108171733.13" a="E"><vh>slides div</vh>
-<v t="yen.20170108171733.14" a="E"><vh>封面投影片</vh>
+<v t="yen.20170108171733.14"><vh>封面投影片</vh>
 <v t="yen.20170108171733.15"><vh>封面投影片內容</vh></v>
 </v>
 <v t="yen.20170108171733.16" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170108171733.17"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="yen.20170108171733.64" a="E"><vh>各式內容引用範例</vh>
-<v t="yen.20170108171733.65" a="E"><vh>導入數學符號與方程式</vh>
+<v t="yen.20170108171733.65"><vh>導入數學符號與方程式</vh>
 <v t="yen.20170108171733.66"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20170622234143.1" a="E"><vh>newHeadline</vh>
 <v t="leo.20170622231225.1"><vh>LaTeX 格式方程式</vh></v>
 </v>
+</v>
+<v t="leo.20170622234235.1" a="E"><vh>newHeadline</vh>
 <v t="yen.20170108171733.67" a="E"><vh>導入縮排程式碼</vh>
-<v t="yen.20170108171733.69" a="E"><vh>導入影片</vh>
+<v t="yen.20170108171733.69"><vh>導入影片</vh>
 <v t="yen.20170108171733.70"><vh>iframe 導入影片</vh></v>
 </v>
+<v t="leo.20170622234003.1" a="E"><vh>video</vh>
 <v t="yen.20170108171733.68"><vh>引用程式碼</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -84,6 +90,17 @@ SSD 固態硬碟(不旋轉)
 SCSI：小型電腦介面
 RAID：容錯式磁碟陣列（RAID，獨立磁盤冗餘陣列）
 </t>
+<t tx="leo.20170622234003.1"></t>
+<t tx="leo.20170622234143.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170622234235.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -275,7 +292,10 @@ Created by [林兆戎](http://chiamingyen.github.io/kmolab/blog/)
 
 順序為
 白橙   橙   白綠   藍   白藍   綠   白棕   棕
-線材的兩邊順序要相同</t>
+線材的兩邊順序要相同
+而放入網路接頭時順序不可以亂
+並由壓線鉗將線跟接頭卡死
+放入電腦嘗試看可不可以連線</t>
 <t tx="yen.20170108171733.2">@language python
 import os
 #os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
