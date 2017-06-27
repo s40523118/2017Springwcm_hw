@@ -36,7 +36,7 @@
 <v t="yen.20170108171733.14" a="E"><vh>封面投影片</vh>
 <v t="yen.20170108171733.15"><vh>封面投影片內容</vh></v>
 </v>
-<v t="yen.20170108171733.16"><vh>快捷鍵</vh>
+<v t="yen.20170108171733.16" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170108171733.17"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20170623003805.1" a="E"><vh>快捷鍵</vh>
@@ -58,7 +58,7 @@
 </v>
 <v t="leo.20170622234235.1" a="E"><vh>newHeadline</vh>
 <v t="yen.20170108171733.67" a="E"><vh>導入縮排程式碼</vh>
-<v t="yen.20170108171733.69"><vh>導入影片</vh>
+<v t="yen.20170108171733.69" a="E"><vh>導入影片</vh>
 <v t="yen.20170108171733.70"><vh>iframe 導入影片</vh></v>
 </v>
 <v t="leo.20170622234003.1" a="E"><vh>video</vh>
@@ -72,9 +72,9 @@
 </v>
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
-<v t="leo.20170622224243.1" a="E"><vh>40523130 所寫的網誌文章</vh>
-<v t="leo.20170622224243.2"><vh>@edit 20170426.md</vh></v>
+<v t="leo.20170622224243.1" a="E"><vh>40523118 所寫的網誌文章</vh>
 <v t="leo.20170622224243.3"><vh>@edit 20170427.md</vh></v>
+<v t="leo.20170622224243.2"><vh>@edit 20170426.md</vh></v>
 </v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
@@ -351,12 +351,12 @@ Created by [林兆戎](http://chiamingyen.github.io/kmolab/blog/)
 </t>
 <t tx="yen.20170108171733.17"># 網路線
 
-順序為
-白橙   橙   白綠   藍   白藍   綠   白棕   棕
-線材的兩邊順序要相同
-而放入網路接頭時順序不可以亂
-並由壓線鉗將線跟接頭卡死
-放入電腦嘗試看可不可以連線</t>
+ 順序為
+ 白橙   橙   白綠   藍   白藍   綠   白棕   棕(br/)
+ 線材的兩邊順序要相同(br/)
+ 而放入網路接頭時順序不可以亂(br/)
+ 並由壓線鉗將線跟接頭卡死(br/)
+ 放入電腦嘗試看可不可以連線(br/)</t>
 <t tx="yen.20170108171733.2">@language python
 import os
 #os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
@@ -403,7 +403,7 @@ Oracle 公司:資料庫
 <t tx="yen.20170108171733.68"># 安裝使用Ubuntu
 
 &lt;iframe src="https://player.vimeo.com/video/214970970" width="640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/214970970"&gt;2017-04-27_13-36-36&lt;/a&gt; from &lt;a href="https://vimeo.com/user65942712"&gt;林兆戎&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970970"&gt;2017-06-25_13-36-36&lt;/a&gt; from &lt;a href="https://vimeo.com/user65942712"&gt;林兆戎&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 </t>
 <t tx="yen.20170108171733.69">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
